@@ -1,7 +1,7 @@
 # FirstRestApiG
 Hi, this is my first RESTful API made in golang. Thanks to [Ossan]([https://website-name.com](https://github.com/ossan-dev)https://github.com/ossan-dev) for helping me out learning go
 ***
-Features
+# Features
 |Function|Status|
 |-----|--------|
 |Get all todos|Functioning|

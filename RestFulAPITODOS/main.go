@@ -150,10 +150,10 @@ func main() {
 	//Adds a new TODO
 	app.POST("/todos", newTodo)
 	//Edits TODO's desctiption
-	app.PATCH("/todos/:id/", editTodoContent)
+	app.PATCH("/todos/:id/:content", editTodoContent)
 	//Marks the TODO as complete
-	app.PATCH("/todos/:id/:content", completeTodo)
+	app.PATCH("/todos/:id", completeTodo)
 	//Deletes a TODO via it's ID
-	app.DELETE("/todos/:id/", deleteTodoViaID)
+	app.DELETE("/todos/:id", deleteTodoViaID)
 	app.Run("localhost:2555")
 }

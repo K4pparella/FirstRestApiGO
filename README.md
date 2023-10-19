@@ -12,7 +12,7 @@ Features
 |Delete a todo|Functioning|
 ***
 
-#How to run
+# How to run
 Firstly make sure you have GO installed on your computer, if not download it from [HERE!](https://go.dev/dl/).
 Then download and exctract everything into a folder of your choice.
 After that just open a terminal inside the folder and write
@@ -20,7 +20,7 @@ After that just open a terminal inside the folder and write
 go run main.go
 ```
 ***
-#Postman collection
+# Postman collection
 If you want to use postman to check the api just use the collection below!
 ```json
 {

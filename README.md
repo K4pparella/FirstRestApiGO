@@ -35,7 +35,18 @@ If you want to use postman to check the api just use the collection below!
 			"name": "Get a json of all todos",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "localhost:2555/todos/",
+					"host": [
+						"localhost"
+					],
+					"port": "2555",
+					"path": [
+						"todos",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -57,14 +68,14 @@ If you want to use postman to check the api just use the collection below!
 					}
 				},
 				"url": {
-					"raw": "localhost:2555/todos/",
+					"raw": "localhost:2555/todos/3",
 					"host": [
 						"localhost"
 					],
 					"port": "2555",
 					"path": [
 						"todos",
-						""
+						"3"
 					]
 				}
 			},
@@ -99,7 +110,7 @@ If you want to use postman to check the api just use the collection below!
 			"response": []
 		},
 		{
-			"name": "UpdateTODO (Not Working atm)",
+			"name": "Edit a TODO content",
 			"request": {
 				"method": "PATCH",
 				"header": [],

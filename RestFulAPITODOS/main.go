@@ -33,7 +33,7 @@ var todolist = []todo{
 
 // Getting all the todos
 func getTodos(context *gin.Context) {
-	context.IndentedJSON(http.StatusOK, todolist)
+	context.JSON(http.StatusOK, todolist)
 }
 
 // Adding a new TODO to the TODOLIST
